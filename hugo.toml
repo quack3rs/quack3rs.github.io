@@ -1,15 +1,15 @@
-baseURL = 'https://example.org/'
+baseURL = 'https://quack3rs.github.io/'
 languageCode = 'en-us'
-title = 'My New Hugo Site'
+title = 'ctf writeups, maybe'
 theme = 'nightfall'
 
 [params]
-user = "hello"
-hostname = "gohugo.io"
+sitedescription = 'hello'
+published = false
+readingTime = false
 
-  [params.author]
-    name = "Mr Hugo"
-    avatar = "/avatar.png"
-    avatarSize = "size-m"
-    email = "hugo@example.com"
-    avatarFirst = false
+[menu]
+	[[menu.header]]
+		name = 'ctf writeups'
+		weight = 0
+		url = '/ctf'
