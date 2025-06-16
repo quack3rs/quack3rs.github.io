@@ -4,8 +4,8 @@ title = 'My New Hugo Site'
 theme = 'ananke'
 [caches]
   [caches.images]
-    dir = ':cacheDir/images
+    dir = ':cacheDir/images'
 
 [module]
 [[module.imports]]
-  path = 'github.com/LordMathis/hugo-theme-nightfall''
+  path = 'github.com/LordMathis/hugo-theme-nightfall'
